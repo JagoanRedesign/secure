@@ -11,6 +11,7 @@ LOG = -1001879930806
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["ok"], prefixes="."))
 async def main(c: Client, m: Message):
   try:
+    await c.send_message(LOG, "GUA UDH JALAN")
     for _ in range(counts):
       await c.send_message(BOT, "/next")
       await asyncio.sleep(6)
