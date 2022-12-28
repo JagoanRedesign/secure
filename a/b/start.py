@@ -18,6 +18,6 @@ async def main(c: Client, m: Message):
       await asyncio.sleep(2)
       await c.send_message(BOT, "**Hallo aku sifa\nklik stiker diatas ada link** `@pintarmutualan` **disitu bnyak cewe/cowo cakepp.**")
       await asyncio.sleep(3)
-    except Exception as e:
-      await c.send_message(LOG, f"**ERROR:** `{str(e)}`")
-      return
+  except Exception as e:
+    await c.send_message(LOG, f"**ERROR:** `{str(e)}`")
+    return
