@@ -1,10 +1,10 @@
 import asyncio
 from pyrogram import Client
 from config import *
-
+from aiohttp import ClientSession
 
 LOOP = asyncio.get_event_loop()
-
+aiosession = ClientSession()
 bot1 = (
     Client(
         name="bot1",
