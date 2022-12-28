@@ -3,6 +3,8 @@ from pyrogram import Client
 from config import *
 
 
+LOOP = asyncio.get_event_loop()
+
 bot1 = (
     Client(
         name="bot1",
