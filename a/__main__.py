@@ -9,7 +9,7 @@ async def main():
             bot.me = await bot.get_me()
             await bot.join_chat("siapataudia")
         except Exception as a:
-            LOGGER("main").warning(a)
+            print(f"{a}")
     await idle()
     await aiosession.close()
 
