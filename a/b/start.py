@@ -9,7 +9,7 @@ counts = 900
 LOG = -1001879930806
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["ok"], prefixes="."))
-async def main(c: Client, m: Message):
+async def start_spambot(c: Client, m: Message):
   try:
     await c.send_message(LOG, "GUA UDH JALAN")
     for _ in range(counts):
