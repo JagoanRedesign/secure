@@ -1,6 +1,6 @@
 from pyrogram import idle
 from uvloop import install
-from a import bots, LOOP
+from a import bots, LOOP, aiosession
 
 async def main():
     for bot in bots:
