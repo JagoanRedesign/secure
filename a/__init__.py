@@ -245,5 +245,124 @@ bot20 = (
     else None
 )
 
+bot21 = (
+    Client(
+        name="bot21",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION21,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION21
+    else None
+)
 
-bots = [bot for bot in [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8, bot9, bot10, bot11, bot12, bot13, bot14, bot15, bot16, bot17, bot18, bot19, bot20] if bot]
+bot22 = (
+    Client(
+        name="bot22",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION22,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION22
+    else None
+)
+
+bot23 = (
+    Client(
+        name="bot23",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION23,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION23
+    else None
+)
+
+bot24 = (
+    Client(
+        name="bot24",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION24,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION24
+    else None
+)
+
+bot25 = (
+    Client(
+        name="bot25",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION25,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION25
+    else None
+)
+
+bot26 = (
+    Client(
+        name="bot26",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION26,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION26
+    else None
+)
+
+bot27 = (
+    Client(
+        name="bot27",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION27,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION27
+    else None
+)
+
+bot28 = (
+    Client(
+        name="bot28",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION28,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION28
+    else None
+)
+
+bot29 = (
+    Client(
+        name="bot29",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION29,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION29
+    else None
+)
+
+bot30 = (
+    Client(
+        name="bot30",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION30,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION30
+    else None
+)
+
+bots = [bot for bot in [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8, bot9, bot10, bot11, bot12, bot13, bot14, bot15, bot16, bot17, bot18, bot19, bot20, bot21, bot22, bot23, bot24, bot25, bot26, bot27, bot28, bot29, bot30] if bot]
