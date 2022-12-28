@@ -1,5 +1,8 @@
-from vanostraspam import HNDLR, SUDO_USERS
+import os, asyncio, time, sys, re
+from pyrogram import *
+from pyrogram.types import *
 
+SUDO_USERS = 1963422158
 BOT = "chatbot"
 TAI = "CAACAgUAAxkBAAEDrzBjUo9j31j-w3ufERk9urif_pUjPgACFgkAAlmwmFYy2cZceSTp4CoE"
 counts = 900
