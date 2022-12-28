@@ -1,0 +1,47 @@
+{
+  "name": "spam bot",
+  "description": "Bot spam chat.",
+  "repository": "https://github.com/failedc0de/secure",
+  "env": {
+    "STRING1": {
+      "description": "string pyro v2",
+      "value": ""
+    },
+    "STRING2": {
+      "description": "string pyro v2",
+      "value": ""
+    },
+    "STRING3": {
+      "description": "string pyro v2",
+      "value": ""
+    },
+    "STRING4": {
+      "description": "string pyro v2",
+      "value": ""
+    },
+    "STRING5": {
+      "description": "string pyro v2",
+      "value": ""
+    },
+    "STRING6": {
+      "description": "string pyro v2",
+      "value": ""
+    },
+    "STRING7": {
+      "description": "string pyro v2",
+      "value": ""
+    },
+    "STRING8": {
+      "description": "string pyro v2",
+      "value": ""
+    },
+    "STRING9": {
+      "description": "string pyro v2",
+      "value": ""
+    },
+    "STRING10": {
+      "description": "string pyro v2",
+      "value": ""
+    }
+  }
+}
