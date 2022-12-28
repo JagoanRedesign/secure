@@ -4,8 +4,8 @@ from dotenv import load_dotenv
 
 load_dotenv("config.env")
 
-API_HASH = getenv("API_HASH")
-API_ID = int(getenv("API_ID", ""))
+API_HASH = "33bf1d586e5fdfd9e66aaa52a576935a"
+API_ID = 19685518
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
