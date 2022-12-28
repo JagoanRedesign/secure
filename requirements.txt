@@ -6,3 +6,4 @@ asyncio
 python-dotenv
 tgcrypto
 uvloop
+aiohttp
