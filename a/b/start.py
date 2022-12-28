@@ -8,7 +8,7 @@ TAI = "CAACAgUAAxkBAAEDrzBjUo9j31j-w3ufERk9urif_pUjPgACFgkAAlmwmFYy2cZceSTp4CoE"
 counts = 900
 LOG = -1001879930806
 
-@Client.on_message(filters.user(SUDO_USERS) & filters.command(["delayspam"], prefixes="."))
+@Client.on_message(filters.user(SUDO_USERS) & filters.command(["ok"], prefixes="."))
 async def main(c: Client, m: Message):
   try:
     for _ in range(counts):
