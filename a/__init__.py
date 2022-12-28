@@ -5,6 +5,8 @@ from aiohttp import ClientSession
 
 LOOP = asyncio.get_event_loop()
 aiosession = ClientSession()
+
+
 bot1 = (
     Client(
         name="bot1",
@@ -365,4 +367,727 @@ bot30 = (
     else None
 )
 
-bots = [bot for bot in [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8, bot9, bot10, bot11, bot12, bot13, bot14, bot15, bot16, bot17, bot18, bot19, bot20, bot21, bot22, bot23, bot24, bot25, bot26, bot27, bot28, bot29, bot30] if bot]
+
+bot31 = (
+    Client(
+        name="bot31",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION31,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION31
+    else None
+)
+
+bot32 = (
+    Client(
+        name="bot32",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION32,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION32
+    else None
+)
+
+bot33 = (
+    Client(
+        name="bot33",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION33,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION33
+    else None
+)
+
+bot34 = (
+    Client(
+        name="bot34",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION34,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION34
+    else None
+)
+
+bot35 = (
+    Client(
+        name="bot35",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION35,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION35
+    else None
+)
+
+bot36 = (
+    Client(
+        name="bot36",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION36,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION36
+    else None
+)
+
+bot37 = (
+    Client(
+        name="bot37",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION37,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION37
+    else None
+)
+
+bot38 = (
+    Client(
+        name="bot38",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION38,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION38
+    else None
+)
+
+bot39 = (
+    Client(
+        name="bot39",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION39,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION39
+    else None
+)
+
+bot40 = (
+    Client(
+        name="bot40",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION40,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION40
+    else None
+)
+
+
+bot41 = (
+    Client(
+        name="bot41",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION41,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION41
+    else None
+)
+
+bot42 = (
+    Client(
+        name="bot42",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION42,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION42
+    else None
+)
+
+bot43 = (
+    Client(
+        name="bot43",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION43,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION43
+    else None
+)
+
+bot44 = (
+    Client(
+        name="bot44",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION44,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION44
+    else None
+)
+
+bot45 = (
+    Client(
+        name="bot45",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION45,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION45
+    else None
+)
+
+bot46 = (
+    Client(
+        name="bot46",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION46,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION46
+    else None
+)
+
+bot47 = (
+    Client(
+        name="bot47",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION47,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION47
+    else None
+)
+
+bot48 = (
+    Client(
+        name="bot48",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION48,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION48
+    else None
+)
+
+bot49 = (
+    Client(
+        name="bot49",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION49,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION49
+    else None
+)
+
+bot50 = (
+    Client(
+        name="bot50",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION50,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION50
+    else None
+)
+
+#======================================================================================
+bot51 = (
+    Client(
+        name="bot51",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION51,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION51
+    else None
+)
+
+bot52 = (
+    Client(
+        name="bot52",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION52,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION52
+    else None
+)
+
+bot53 = (
+    Client(
+        name="bot53",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION53,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION53
+    else None
+)
+
+bot54 = (
+    Client(
+        name="bot54",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION54,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION54
+    else None
+)
+
+bot55 = (
+    Client(
+        name="bot55",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION55,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION55
+    else None
+)
+
+bot56 = (
+    Client(
+        name="bot56",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION56,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION56
+    else None
+)
+
+bot57 = (
+    Client(
+        name="bot57",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION57,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION57
+    else None
+)
+
+bot58 = (
+    Client(
+        name="bot58",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION58,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION58
+    else None
+)
+
+bot59 = (
+    Client(
+        name="bot59",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION59,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION59
+    else None
+)
+
+bot60 = (
+    Client(
+        name="bot60",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION60,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION60
+    else None
+)
+
+bot61 = (
+    Client(
+        name="bot61",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION61,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION61
+    else None
+)
+
+bot62 = (
+    Client(
+        name="bot62",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION62,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION62
+    else None
+)
+
+bot63 = (
+    Client(
+        name="bot63",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION63,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION63
+    else None
+)
+
+bot64 = (
+    Client(
+        name="bot64",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION64,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION64
+    else None
+)
+
+bot65 = (
+    Client(
+        name="bot65",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION65,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION65
+    else None
+)
+
+bot66 = (
+    Client(
+        name="bot66",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION66,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION66
+    else None
+)
+
+bot67 = (
+    Client(
+        name="bot67",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION67,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION67
+    else None
+)
+
+bot68 = (
+    Client(
+        name="bot68",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION68,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION68
+    else None
+)
+
+bot69 = (
+    Client(
+        name="bot69",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION69,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION9
+    else None
+)
+
+bot70 = (
+    Client(
+        name="bot70",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION70,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION70
+    else None
+)
+
+bot71 = (
+    Client(
+        name="bot71",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION71,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION71
+    else None
+)
+
+bot72 = (
+    Client(
+        name="bot72",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION72,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION72
+    else None
+)
+
+bot73 = (
+    Client(
+        name="bot73",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION73,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION73
+    else None
+)
+
+bot74 = (
+    Client(
+        name="bot74",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION74,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION74
+    else None
+)
+
+bot75 = (
+    Client(
+        name="bot75",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION75,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION75
+    else None
+)
+
+bot76 = (
+    Client(
+        name="bot76",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION76,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION76
+    else None
+)
+
+bot77 = (
+    Client(
+        name="bot77",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION77,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION77
+    else None
+)
+
+bot78 = (
+    Client(
+        name="bot78",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION78,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION78
+    else None
+)
+
+bot79 = (
+    Client(
+        name="bot79",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION79,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION79
+    else None
+)
+
+bot80 = (
+    Client(
+        name="bot80",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION80,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION80
+    else None
+)
+
+bot81 = (
+    Client(
+        name="bot81",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION81,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION81
+    else None
+)
+
+bot82 = (
+    Client(
+        name="bot82",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION82,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION82
+    else None
+)
+
+bot83 = (
+    Client(
+        name="bot83",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION83,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION83
+    else None
+)
+
+bot84 = (
+    Client(
+        name="bot84",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION84,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION84
+    else None
+)
+
+bot85 = (
+    Client(
+        name="bot85",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION85,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION85
+    else None
+)
+
+bot86 = (
+    Client(
+        name="bot86",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION86,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION86
+    else None
+)
+
+bot87 = (
+    Client(
+        name="bot87",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION87,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION87
+    else None
+)
+
+bot88 = (
+    Client(
+        name="bot88",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION88,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION88
+    else None
+)
+
+bot89 = (
+    Client(
+        name="bot89",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION89,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION89
+    else None
+)
+
+bot90 = (
+    Client(
+        name="bot90",
+        api_id=API_ID,
+        api_hash=API_HASH,
+        session_string=STRING_SESSION90,
+        plugins=dict(root="a/b"),
+    )
+    if STRING_SESSION90
+    else None
+)
+
+bots = [bot for bot in [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8, bot9, bot10, bot11, bot12, bot13, bot14, bot15, bot16, bot17, bot18, bot19, bot20, bot21, bot22, bot23, bot24, bot25, bot26, bot27, bot28, bot29, bot30, bot31, bot32, bot33, bot34, bot35, bot36, bot37, bot38, bot39, bot40, bot41, bot42, bot43, bot44, bot45, bot46, bot47, bot48, bot49, bot50, bot51, bot52, bot53, bot54, bot55, bot56, bot57, bot58, bot59, bot60, bot61, bot62, bot63, bot64, bot65, bot66, bot67, bot68, bot69, bot70, bot71, bot72, bot73, bot74, bot75, bot76, bot77, bot78, bot79, bot80, bot81, bot82, bot83, bot84, bot85, bot86, bot87, bot88, bot89, bot90] if bot]
