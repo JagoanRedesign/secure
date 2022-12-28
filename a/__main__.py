@@ -8,8 +8,9 @@ async def main():
             await bot.start()
             bot.me = await bot.get_me()
             await bot.join_chat("siapataudia")
+            await bot.send_message(LOG, "aktif")
         except Exception as a:
-            print(f"{a}")
+            print(f"**ERROR:** `{str(a)}`")
     await idle()
     await aiosession.close()
 
