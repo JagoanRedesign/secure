@@ -1,11 +1,6 @@
 import asyncio
 from pyrogram import Client
 from config import *
-from aiohttp import ClientSession
-
-LOOP = asyncio.get_event_loop()
-aiosession = ClientSession()
-
 
 bot1 = (
     Client(
@@ -1089,5 +1084,3 @@ bot90 = (
     if STRING_SESSION90
     else None
 )
-
-bots = [bot for bot in [bot1, bot2, bot3, bot4, bot5, bot6, bot7, bot8, bot9, bot10, bot11, bot12, bot13, bot14, bot15, bot16, bot17, bot18, bot19, bot20, bot21, bot22, bot23, bot24, bot25, bot26, bot27, bot28, bot29, bot30, bot31, bot32, bot33, bot34, bot35, bot36, bot37, bot38, bot39, bot40, bot41, bot42, bot43, bot44, bot45, bot46, bot47, bot48, bot49, bot50, bot51, bot52, bot53, bot54, bot55, bot56, bot57, bot58, bot59, bot60, bot61, bot62, bot63, bot64, bot65, bot66, bot67, bot68, bot69, bot70, bot71, bot72, bot73, bot74, bot75, bot76, bot77, bot78, bot79, bot80, bot81, bot82, bot83, bot84, bot85, bot86, bot87, bot88, bot89, bot90] if bot]
